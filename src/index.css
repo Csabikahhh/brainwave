@@ -17,6 +17,30 @@
   scroll-behavior: smooth
 }
 
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ac6aff;
+  border-radius: 10px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dcdcdc;
+}
+
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
